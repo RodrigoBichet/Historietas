@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class TelaFinal : MonoBehaviour
+public class TelaFinalAlimento : MonoBehaviour
 {
     public GameObject imagemErro;
     public GameObject imagemErroTitle;
@@ -16,7 +16,7 @@ public class TelaFinal : MonoBehaviour
 
     void Start()
     {
-        int errorCount = GameManager.instance.errorCount;
+        int errorCount = GameManagerAlimento.instance.errorCount;
 
         if (errorCount == 0)
         {
@@ -24,26 +24,26 @@ public class TelaFinal : MonoBehaviour
             imagemAcerto2.SetActive(true);
             imagemAcerto3.SetActive(true);
             imagemAcertoTitle.SetActive(true);
-            GameManager.resultadoAvaliacao = "Acerto";
+            GameManagerAlimento.resultadoAvaliacao = "Acerto";
         }
         else if (errorCount <= 4)
         {
             imagemQuase.SetActive(true);
             imagemQuase2.SetActive(true);
             imagemQuaseTitle.SetActive(true);
-            GameManager.resultadoAvaliacao = "Quase";
+            GameManagerAlimento.resultadoAvaliacao = "Quase";
 
         }
         else
         {
             imagemErro.SetActive(true);
             imagemErroTitle.SetActive(true);
-            GameManager.resultadoAvaliacao = "Erro";
+            GameManagerAlimento.resultadoAvaliacao = "Erro";
         }
     }
 
     public void ButtonReset()
     {
-        GameManager.instance.errorCount = 0; // Reseta a contagem de erros
+        GameManagerAlimento.instance.errorCount = 0; // Reseta a contagem de erros
     }
 }

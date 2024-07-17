@@ -1,7 +1,7 @@
 using UnityEngine;
-public class GameManager : MonoBehaviour
+public class GameManagerAlimento : MonoBehaviour
 {
-    public static GameManager instance;
+    public static GameManagerAlimento instance;
 
     public int errorCount = 0;
     public static string resultadoAvaliacao; // Variável estática para armazenar o resultado

@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ExibirAvaliacao : MonoBehaviour
+public class ExibirAvaliacaoAcao : MonoBehaviour
 {
     public GameObject imagemErro;
     public GameObject imagemQuase;
@@ -9,17 +9,18 @@ public class ExibirAvaliacao : MonoBehaviour
 
     void Start()
     {
-        if (GameManager.resultadoAvaliacao == "Acerto")
+        if (GameManagerAcao.resultadoAvaliacao == "Acerto")
         {
             imagemAcerto.SetActive(true);
         }
-        else if (GameManager.resultadoAvaliacao == "Quase")
+        else if (GameManagerAcao.resultadoAvaliacao == "Quase")
         {
             imagemQuase.SetActive(true);
         }
-        else if (GameManager.resultadoAvaliacao == "Erro")
+        else if (GameManagerAcao.resultadoAvaliacao == "Erro")
         {
             imagemErro.SetActive(true);
         }
+
     }
 }
