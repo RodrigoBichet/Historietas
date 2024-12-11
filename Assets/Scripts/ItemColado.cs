@@ -90,11 +90,26 @@ public class ItemColado : MonoBehaviour, IDropHandler
 
                 if (currentSceneName == "Fase01")
                 {
-                    GameManagerAcao.instance.errorCount++;
+                    GameManagerCoroa.instance.errorCountCoroa++;
                 }
                 else if (currentSceneName == "Fase02")
                 {
-                    GameManagerAlimento.instance.errorCount++;
+                    GameManagerAstronauta.instance.errorCountAstronauta++;
+                }
+
+                else if (currentSceneName == "Fase03")
+                {
+                    GameManagerBanda.instance.errorCountBanda++;
+                }
+
+                else if (currentSceneName == "Fase04")
+                {
+                    GameManagerOficina.instance.errorCountOficina++;
+                }
+
+                else if (currentSceneName == "Fase05")
+                {
+                    GameManagerFazenda.instance.errorCountFazenda++;
                 }
 
                 soundWrong.Play();

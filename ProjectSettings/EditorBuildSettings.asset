@@ -11,9 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Selectlevel.unity
     guid: 667f6cce9d9f8c54aa11d8537833159b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Tutorial.unity
-    guid: 98f0856808472a74da3c1c833f944a69
+    guid: a4064ba0e9c37864f8b2101f59ece0fb
   - enabled: 1
     path: Assets/Scenes/Fase01-pre.unity
     guid: 2a2d3182a7558714eb417381735f94f7
@@ -22,29 +22,32 @@ EditorBuildSettings:
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/Fase02-pre.unity
-    guid: de12ca9257ef4f249b8349bdd21f82ee
+    guid: fa214720cf0f1624db80a9afe54b53ab
   - enabled: 1
     path: Assets/Scenes/Fase02.unity
-    guid: 5075217cd12076f4587baa697ead7ef1
+    guid: 989873fb5cd409f4c869eee95d182769
   - enabled: 1
     path: Assets/Scenes/Fase03-pre.unity
-    guid: 269f296b5a81714469d40e3f87367f74
+    guid: 8c1a18c8c91b6a44f82532be28560790
   - enabled: 1
     path: Assets/Scenes/Fase03.unity
-    guid: 5cb5badf140ab654bb39ba6f74540a82
+    guid: 1b6120feea8b8044fbcda3fb74eb1fcd
   - enabled: 1
     path: Assets/Scenes/Fase04-pre.unity
-    guid: 231ef9ed5d4c5d546bd62f4a822e9260
+    guid: 62c58a5d5ab6f9743b6c22d1f620f3d8
   - enabled: 1
     path: Assets/Scenes/Fase04.unity
-    guid: 577458ecc42b81a4c834b49effe69d34
+    guid: 478c7cbbc83b2e44ab3f515a250b5a79
   - enabled: 1
     path: Assets/Scenes/Fase05-pre.unity
-    guid: eeb0b8b7a9cbfcd478670c5d950f8199
+    guid: a34fcb81e9865874287f5bbc442fee44
   - enabled: 1
     path: Assets/Scenes/Fase05.unity
+    guid: 708759ff7c76bc34dac40e9cccf9dc78
+  - enabled: 0
+    path: Assets/Scenes/Fase05 NAO EXCUIR PARA PEGAR AS COISAS.unity
     guid: 6f5a49b4540dfff4599299078c29f0c5
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Gameover.unity
     guid: edc5dc3e5f3b1e140869045e1a1d019d
   m_configObjects: {}
