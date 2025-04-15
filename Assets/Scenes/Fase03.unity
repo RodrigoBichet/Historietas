@@ -13,7 +13,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 10
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -38,13 +38,12 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 12
-  m_GIWorkflowMode: 1
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -67,9 +66,6 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
-    m_FinalGather: 0
-    m_FinalGatherFiltering: 1
-    m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 0
@@ -160,55 +156,55 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[0]
+      propertyPath: 'imagens.Array.data[0]'
       value: 
       objectReference: {fileID: 21300000, guid: 76c7134a3c4c1d3439846e1599beb589, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[1]
+      propertyPath: 'imagens.Array.data[1]'
       value: 
       objectReference: {fileID: 21300000, guid: 49d55845539a92c4aaf9173b1b34bf5c, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[2]
+      propertyPath: 'imagens.Array.data[2]'
       value: 
       objectReference: {fileID: 21300000, guid: 77ab591ec6414724db09e0374b5f52b3, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[3]
+      propertyPath: 'imagens.Array.data[3]'
       value: 
       objectReference: {fileID: 21300000, guid: 0352c1d5e42b855459c9c66408be6596, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[4]
+      propertyPath: 'imagens.Array.data[4]'
       value: 
       objectReference: {fileID: 21300000, guid: 63278b2cc34ec3d4782133c4fffd537b, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[5]
+      propertyPath: 'imagens.Array.data[5]'
       value: 
       objectReference: {fileID: 21300000, guid: c8d4df32b465209408f838fa8773c09c, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[6]
+      propertyPath: 'imagens.Array.data[6]'
       value: 
       objectReference: {fileID: 21300000, guid: 80e92de5beba04646ba6fcd994fa9c78, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[7]
+      propertyPath: 'imagens.Array.data[7]'
       value: 
       objectReference: {fileID: 21300000, guid: 33e2256fcfa08bb4e8983846f63cf9da, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[8]
+      propertyPath: 'imagens.Array.data[8]'
       value: 
       objectReference: {fileID: 21300000, guid: 3d5032af01e02e04d95ee3953e2aa080, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[9]
+      propertyPath: 'imagens.Array.data[9]'
       value: 
       objectReference: {fileID: 21300000, guid: 54600a23447cdf1458515bb7302fdf29, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[10]
+      propertyPath: 'imagens.Array.data[10]'
       value: 
       objectReference: {fileID: 21300000, guid: 59085a96dd7c1234c8258c13493ab2cb, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[11]
+      propertyPath: 'imagens.Array.data[11]'
       value: 
       objectReference: {fileID: 21300000, guid: de51356a56f83864abfd35ff6b9f756f, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[12]
+      propertyPath: 'imagens.Array.data[12]'
       value: 
       objectReference: {fileID: 21300000, guid: f5f3962cb42ee5a44a216e1e91f625c0, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
@@ -216,55 +212,55 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[0]
+      propertyPath: 'listaLegendas.Array.data[0]'
       value: Tecladista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[1]
+      propertyPath: 'listaLegendas.Array.data[1]'
       value: Guitarrista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[2]
+      propertyPath: 'listaLegendas.Array.data[2]'
       value: Pandeiro
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[3]
+      propertyPath: 'listaLegendas.Array.data[3]'
       value: Vocalista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[4]
+      propertyPath: 'listaLegendas.Array.data[4]'
       value: Livro
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[5]
+      propertyPath: 'listaLegendas.Array.data[5]'
       value: Mochila Escolar
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[6]
+      propertyPath: 'listaLegendas.Array.data[6]'
       value: "\xD3culos de Sol"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[7]
+      propertyPath: 'listaLegendas.Array.data[7]'
       value: Pente de Cabelo
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[8]
+      propertyPath: 'listaLegendas.Array.data[8]'
       value: "Ra\xE7\xE3o de Gato"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[9]
+      propertyPath: 'listaLegendas.Array.data[9]'
       value: "Rem\xE9dio"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[10]
+      propertyPath: 'listaLegendas.Array.data[10]'
       value: "T\xE1xi"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[11]
+      propertyPath: 'listaLegendas.Array.data[11]'
       value: "Televis\xE3o"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[12]
+      propertyPath: 'listaLegendas.Array.data[12]'
       value: "T\xEAnis"
       objectReference: {fileID: 0}
     - target: {fileID: 5093648451213644440, guid: ed63388436502554a812ee6f39eccf76, type: 3}
@@ -450,7 +446,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -786,6 +782,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -929,6 +926,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d38a9fc4ac6e06144af0cca14032e25c, type: 3}
+  m_Resource: {fileID: 8300000, guid: d38a9fc4ac6e06144af0cca14032e25c, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1062,55 +1060,55 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[0]
+      propertyPath: 'imagens.Array.data[0]'
       value: 
       objectReference: {fileID: 21300000, guid: 77ab591ec6414724db09e0374b5f52b3, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[1]
+      propertyPath: 'imagens.Array.data[1]'
       value: 
       objectReference: {fileID: 21300000, guid: 49d55845539a92c4aaf9173b1b34bf5c, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[2]
+      propertyPath: 'imagens.Array.data[2]'
       value: 
       objectReference: {fileID: 21300000, guid: 0352c1d5e42b855459c9c66408be6596, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[3]
+      propertyPath: 'imagens.Array.data[3]'
       value: 
       objectReference: {fileID: 21300000, guid: 76c7134a3c4c1d3439846e1599beb589, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[4]
+      propertyPath: 'imagens.Array.data[4]'
       value: 
       objectReference: {fileID: 21300000, guid: 63278b2cc34ec3d4782133c4fffd537b, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[5]
+      propertyPath: 'imagens.Array.data[5]'
       value: 
       objectReference: {fileID: 21300000, guid: c8d4df32b465209408f838fa8773c09c, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[6]
+      propertyPath: 'imagens.Array.data[6]'
       value: 
       objectReference: {fileID: 21300000, guid: 80e92de5beba04646ba6fcd994fa9c78, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[7]
+      propertyPath: 'imagens.Array.data[7]'
       value: 
       objectReference: {fileID: 21300000, guid: 33e2256fcfa08bb4e8983846f63cf9da, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[8]
+      propertyPath: 'imagens.Array.data[8]'
       value: 
       objectReference: {fileID: 21300000, guid: 3d5032af01e02e04d95ee3953e2aa080, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[9]
+      propertyPath: 'imagens.Array.data[9]'
       value: 
       objectReference: {fileID: 21300000, guid: 54600a23447cdf1458515bb7302fdf29, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[10]
+      propertyPath: 'imagens.Array.data[10]'
       value: 
       objectReference: {fileID: 21300000, guid: 59085a96dd7c1234c8258c13493ab2cb, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[11]
+      propertyPath: 'imagens.Array.data[11]'
       value: 
       objectReference: {fileID: 21300000, guid: de51356a56f83864abfd35ff6b9f756f, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[12]
+      propertyPath: 'imagens.Array.data[12]'
       value: 
       objectReference: {fileID: 21300000, guid: f5f3962cb42ee5a44a216e1e91f625c0, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
@@ -1118,55 +1116,55 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[0]
+      propertyPath: 'listaLegendas.Array.data[0]'
       value: Pandeiro
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[1]
+      propertyPath: 'listaLegendas.Array.data[1]'
       value: Guitarrista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[2]
+      propertyPath: 'listaLegendas.Array.data[2]'
       value: Vocalista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[3]
+      propertyPath: 'listaLegendas.Array.data[3]'
       value: Tecladista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[4]
+      propertyPath: 'listaLegendas.Array.data[4]'
       value: Livro
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[5]
+      propertyPath: 'listaLegendas.Array.data[5]'
       value: Mochila Escolar
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[6]
+      propertyPath: 'listaLegendas.Array.data[6]'
       value: "\xD3culos de Sol"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[7]
+      propertyPath: 'listaLegendas.Array.data[7]'
       value: Pente de Cabelo
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[8]
+      propertyPath: 'listaLegendas.Array.data[8]'
       value: "Ra\xE7\xE3o de Gato"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[9]
+      propertyPath: 'listaLegendas.Array.data[9]'
       value: "Rem\xE9dio"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[10]
+      propertyPath: 'listaLegendas.Array.data[10]'
       value: "T\xE1xi"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[11]
+      propertyPath: 'listaLegendas.Array.data[11]'
       value: "Televis\xE3o"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[12]
+      propertyPath: 'listaLegendas.Array.data[12]'
       value: "T\xEAnis"
       objectReference: {fileID: 0}
     - target: {fileID: 5093648451213644440, guid: ed63388436502554a812ee6f39eccf76, type: 3}
@@ -1399,6 +1397,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: afc5e0f1d232aeb46868a3a34f76fd8a, type: 3}
+  m_Resource: {fileID: 8300000, guid: afc5e0f1d232aeb46868a3a34f76fd8a, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1538,6 +1537,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: c997463608da69b4cbd8b479ed016b92, type: 3}
+  m_Resource: {fileID: 8300000, guid: c997463608da69b4cbd8b479ed016b92, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1915,7 +1915,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -2079,15 +2079,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 00000000
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -2446,15 +2448,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 00000000
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -2753,6 +2757,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 5a740538d287f204889b5c0a6f9810da, type: 3}
+  m_Resource: {fileID: 8300000, guid: 5a740538d287f204889b5c0a6f9810da, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -3035,6 +3040,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 4b6c93f40d768ff4999f8667bf369647, type: 3}
+  m_Resource: {fileID: 8300000, guid: 4b6c93f40d768ff4999f8667bf369647, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -3198,7 +3204,7 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &477784854
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3212,6 +3218,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -3262,55 +3269,55 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[0]
+      propertyPath: 'imagens.Array.data[0]'
       value: 
       objectReference: {fileID: 21300000, guid: 0352c1d5e42b855459c9c66408be6596, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[1]
+      propertyPath: 'imagens.Array.data[1]'
       value: 
       objectReference: {fileID: 21300000, guid: 76c7134a3c4c1d3439846e1599beb589, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[2]
+      propertyPath: 'imagens.Array.data[2]'
       value: 
       objectReference: {fileID: 21300000, guid: 49d55845539a92c4aaf9173b1b34bf5c, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[3]
+      propertyPath: 'imagens.Array.data[3]'
       value: 
       objectReference: {fileID: 21300000, guid: 77ab591ec6414724db09e0374b5f52b3, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[4]
+      propertyPath: 'imagens.Array.data[4]'
       value: 
       objectReference: {fileID: 21300000, guid: 63278b2cc34ec3d4782133c4fffd537b, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[5]
+      propertyPath: 'imagens.Array.data[5]'
       value: 
       objectReference: {fileID: 21300000, guid: c8d4df32b465209408f838fa8773c09c, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[6]
+      propertyPath: 'imagens.Array.data[6]'
       value: 
       objectReference: {fileID: 21300000, guid: 80e92de5beba04646ba6fcd994fa9c78, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[7]
+      propertyPath: 'imagens.Array.data[7]'
       value: 
       objectReference: {fileID: 21300000, guid: 33e2256fcfa08bb4e8983846f63cf9da, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[8]
+      propertyPath: 'imagens.Array.data[8]'
       value: 
       objectReference: {fileID: 21300000, guid: 3d5032af01e02e04d95ee3953e2aa080, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[9]
+      propertyPath: 'imagens.Array.data[9]'
       value: 
       objectReference: {fileID: 21300000, guid: 54600a23447cdf1458515bb7302fdf29, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[10]
+      propertyPath: 'imagens.Array.data[10]'
       value: 
       objectReference: {fileID: 21300000, guid: 59085a96dd7c1234c8258c13493ab2cb, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[11]
+      propertyPath: 'imagens.Array.data[11]'
       value: 
       objectReference: {fileID: 21300000, guid: de51356a56f83864abfd35ff6b9f756f, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[12]
+      propertyPath: 'imagens.Array.data[12]'
       value: 
       objectReference: {fileID: 21300000, guid: f5f3962cb42ee5a44a216e1e91f625c0, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
@@ -3318,55 +3325,55 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[0]
+      propertyPath: 'listaLegendas.Array.data[0]'
       value: Vocalista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[1]
+      propertyPath: 'listaLegendas.Array.data[1]'
       value: Tecladista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[2]
+      propertyPath: 'listaLegendas.Array.data[2]'
       value: Guitarrista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[3]
+      propertyPath: 'listaLegendas.Array.data[3]'
       value: Pandeiro
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[4]
+      propertyPath: 'listaLegendas.Array.data[4]'
       value: Livro
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[5]
+      propertyPath: 'listaLegendas.Array.data[5]'
       value: Mochila Escolar
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[6]
+      propertyPath: 'listaLegendas.Array.data[6]'
       value: "\xD3culos de Sol"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[7]
+      propertyPath: 'listaLegendas.Array.data[7]'
       value: Pente de Cabelo
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[8]
+      propertyPath: 'listaLegendas.Array.data[8]'
       value: "Ra\xE7\xE3o de Gato"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[9]
+      propertyPath: 'listaLegendas.Array.data[9]'
       value: "Rem\xE9dio"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[10]
+      propertyPath: 'listaLegendas.Array.data[10]'
       value: "T\xE1xi"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[11]
+      propertyPath: 'listaLegendas.Array.data[11]'
       value: "Televis\xE3o"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[12]
+      propertyPath: 'listaLegendas.Array.data[12]'
       value: "T\xEAnis"
       objectReference: {fileID: 0}
     - target: {fileID: 5093648451213644440, guid: ed63388436502554a812ee6f39eccf76, type: 3}
@@ -3513,55 +3520,55 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[0]
+      propertyPath: 'imagens.Array.data[0]'
       value: 
       objectReference: {fileID: 21300000, guid: 0352c1d5e42b855459c9c66408be6596, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[1]
+      propertyPath: 'imagens.Array.data[1]'
       value: 
       objectReference: {fileID: 21300000, guid: 76c7134a3c4c1d3439846e1599beb589, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[2]
+      propertyPath: 'imagens.Array.data[2]'
       value: 
       objectReference: {fileID: 21300000, guid: 49d55845539a92c4aaf9173b1b34bf5c, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[3]
+      propertyPath: 'imagens.Array.data[3]'
       value: 
       objectReference: {fileID: 21300000, guid: 77ab591ec6414724db09e0374b5f52b3, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[4]
+      propertyPath: 'imagens.Array.data[4]'
       value: 
       objectReference: {fileID: 21300000, guid: 63278b2cc34ec3d4782133c4fffd537b, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[5]
+      propertyPath: 'imagens.Array.data[5]'
       value: 
       objectReference: {fileID: 21300000, guid: c8d4df32b465209408f838fa8773c09c, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[6]
+      propertyPath: 'imagens.Array.data[6]'
       value: 
       objectReference: {fileID: 21300000, guid: 80e92de5beba04646ba6fcd994fa9c78, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[7]
+      propertyPath: 'imagens.Array.data[7]'
       value: 
       objectReference: {fileID: 21300000, guid: 33e2256fcfa08bb4e8983846f63cf9da, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[8]
+      propertyPath: 'imagens.Array.data[8]'
       value: 
       objectReference: {fileID: 21300000, guid: 3d5032af01e02e04d95ee3953e2aa080, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[9]
+      propertyPath: 'imagens.Array.data[9]'
       value: 
       objectReference: {fileID: 21300000, guid: 54600a23447cdf1458515bb7302fdf29, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[10]
+      propertyPath: 'imagens.Array.data[10]'
       value: 
       objectReference: {fileID: 21300000, guid: 59085a96dd7c1234c8258c13493ab2cb, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[11]
+      propertyPath: 'imagens.Array.data[11]'
       value: 
       objectReference: {fileID: 21300000, guid: de51356a56f83864abfd35ff6b9f756f, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[12]
+      propertyPath: 'imagens.Array.data[12]'
       value: 
       objectReference: {fileID: 21300000, guid: f5f3962cb42ee5a44a216e1e91f625c0, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
@@ -3569,55 +3576,55 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[0]
+      propertyPath: 'listaLegendas.Array.data[0]'
       value: Vocalista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[1]
+      propertyPath: 'listaLegendas.Array.data[1]'
       value: Tecladista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[2]
+      propertyPath: 'listaLegendas.Array.data[2]'
       value: Guitarrista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[3]
+      propertyPath: 'listaLegendas.Array.data[3]'
       value: Pandeiro
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[4]
+      propertyPath: 'listaLegendas.Array.data[4]'
       value: Livro
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[5]
+      propertyPath: 'listaLegendas.Array.data[5]'
       value: Mochila Escolar
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[6]
+      propertyPath: 'listaLegendas.Array.data[6]'
       value: "\xD3culos de Sol"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[7]
+      propertyPath: 'listaLegendas.Array.data[7]'
       value: Pente de Cabelo
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[8]
+      propertyPath: 'listaLegendas.Array.data[8]'
       value: "Ra\xE7\xE3o de Gato"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[9]
+      propertyPath: 'listaLegendas.Array.data[9]'
       value: "Rem\xE9dio"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[10]
+      propertyPath: 'listaLegendas.Array.data[10]'
       value: "T\xE1xi"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[11]
+      propertyPath: 'listaLegendas.Array.data[11]'
       value: "Televis\xE3o"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[12]
+      propertyPath: 'listaLegendas.Array.data[12]'
       value: "T\xEAnis"
       objectReference: {fileID: 0}
     - target: {fileID: 5093648451213644440, guid: ed63388436502554a812ee6f39eccf76, type: 3}
@@ -3893,7 +3900,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 --- !u!95 &523973140
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3907,6 +3914,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -4156,6 +4164,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -4337,6 +4346,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: c997463608da69b4cbd8b479ed016b92, type: 3}
+  m_Resource: {fileID: 8300000, guid: c997463608da69b4cbd8b479ed016b92, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -4484,7 +4494,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!95 &615017055
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4498,6 +4508,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -4836,55 +4847,55 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[0]
+      propertyPath: 'imagens.Array.data[0]'
       value: 
       objectReference: {fileID: 21300000, guid: 49d55845539a92c4aaf9173b1b34bf5c, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[1]
+      propertyPath: 'imagens.Array.data[1]'
       value: 
       objectReference: {fileID: 21300000, guid: 0352c1d5e42b855459c9c66408be6596, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[2]
+      propertyPath: 'imagens.Array.data[2]'
       value: 
       objectReference: {fileID: 21300000, guid: 76c7134a3c4c1d3439846e1599beb589, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[3]
+      propertyPath: 'imagens.Array.data[3]'
       value: 
       objectReference: {fileID: 21300000, guid: 77ab591ec6414724db09e0374b5f52b3, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[4]
+      propertyPath: 'imagens.Array.data[4]'
       value: 
       objectReference: {fileID: 21300000, guid: 63278b2cc34ec3d4782133c4fffd537b, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[5]
+      propertyPath: 'imagens.Array.data[5]'
       value: 
       objectReference: {fileID: 21300000, guid: c8d4df32b465209408f838fa8773c09c, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[6]
+      propertyPath: 'imagens.Array.data[6]'
       value: 
       objectReference: {fileID: 21300000, guid: 80e92de5beba04646ba6fcd994fa9c78, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[7]
+      propertyPath: 'imagens.Array.data[7]'
       value: 
       objectReference: {fileID: 21300000, guid: 33e2256fcfa08bb4e8983846f63cf9da, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[8]
+      propertyPath: 'imagens.Array.data[8]'
       value: 
       objectReference: {fileID: 21300000, guid: 3d5032af01e02e04d95ee3953e2aa080, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[9]
+      propertyPath: 'imagens.Array.data[9]'
       value: 
       objectReference: {fileID: 21300000, guid: 54600a23447cdf1458515bb7302fdf29, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[10]
+      propertyPath: 'imagens.Array.data[10]'
       value: 
       objectReference: {fileID: 21300000, guid: 59085a96dd7c1234c8258c13493ab2cb, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[11]
+      propertyPath: 'imagens.Array.data[11]'
       value: 
       objectReference: {fileID: 21300000, guid: de51356a56f83864abfd35ff6b9f756f, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[12]
+      propertyPath: 'imagens.Array.data[12]'
       value: 
       objectReference: {fileID: 21300000, guid: f5f3962cb42ee5a44a216e1e91f625c0, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
@@ -4892,55 +4903,55 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[0]
+      propertyPath: 'listaLegendas.Array.data[0]'
       value: Guitarrista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[1]
+      propertyPath: 'listaLegendas.Array.data[1]'
       value: Vocalista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[2]
+      propertyPath: 'listaLegendas.Array.data[2]'
       value: Tecladista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[3]
+      propertyPath: 'listaLegendas.Array.data[3]'
       value: Pandeiro
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[4]
+      propertyPath: 'listaLegendas.Array.data[4]'
       value: Livro
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[5]
+      propertyPath: 'listaLegendas.Array.data[5]'
       value: Mochila Escolar
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[6]
+      propertyPath: 'listaLegendas.Array.data[6]'
       value: "\xD3culos de Sol"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[7]
+      propertyPath: 'listaLegendas.Array.data[7]'
       value: Pente de Cabelo
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[8]
+      propertyPath: 'listaLegendas.Array.data[8]'
       value: "Ra\xE7\xE3o de Gato"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[9]
+      propertyPath: 'listaLegendas.Array.data[9]'
       value: "Rem\xE9dio"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[10]
+      propertyPath: 'listaLegendas.Array.data[10]'
       value: "T\xE1xi"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[11]
+      propertyPath: 'listaLegendas.Array.data[11]'
       value: "Televis\xE3o"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[12]
+      propertyPath: 'listaLegendas.Array.data[12]'
       value: "T\xEAnis"
       objectReference: {fileID: 0}
     - target: {fileID: 5093648451213644440, guid: ed63388436502554a812ee6f39eccf76, type: 3}
@@ -5168,6 +5179,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 5a740538d287f204889b5c0a6f9810da, type: 3}
+  m_Resource: {fileID: 8300000, guid: 5a740538d287f204889b5c0a6f9810da, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -5318,6 +5330,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: ba71c5bc8fb1dab44a2a587770606c59, type: 3}
+  m_Resource: {fileID: 8300000, guid: ba71c5bc8fb1dab44a2a587770606c59, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -5532,6 +5545,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 4b6c93f40d768ff4999f8667bf369647, type: 3}
+  m_Resource: {fileID: 8300000, guid: 4b6c93f40d768ff4999f8667bf369647, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -5773,15 +5787,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 00000000
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -5863,55 +5879,55 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[0]
+      propertyPath: 'imagens.Array.data[0]'
       value: 
       objectReference: {fileID: 21300000, guid: 76c7134a3c4c1d3439846e1599beb589, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[1]
+      propertyPath: 'imagens.Array.data[1]'
       value: 
       objectReference: {fileID: 21300000, guid: 49d55845539a92c4aaf9173b1b34bf5c, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[2]
+      propertyPath: 'imagens.Array.data[2]'
       value: 
       objectReference: {fileID: 21300000, guid: 77ab591ec6414724db09e0374b5f52b3, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[3]
+      propertyPath: 'imagens.Array.data[3]'
       value: 
       objectReference: {fileID: 21300000, guid: 0352c1d5e42b855459c9c66408be6596, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[4]
+      propertyPath: 'imagens.Array.data[4]'
       value: 
       objectReference: {fileID: 21300000, guid: 63278b2cc34ec3d4782133c4fffd537b, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[5]
+      propertyPath: 'imagens.Array.data[5]'
       value: 
       objectReference: {fileID: 21300000, guid: c8d4df32b465209408f838fa8773c09c, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[6]
+      propertyPath: 'imagens.Array.data[6]'
       value: 
       objectReference: {fileID: 21300000, guid: 80e92de5beba04646ba6fcd994fa9c78, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[7]
+      propertyPath: 'imagens.Array.data[7]'
       value: 
       objectReference: {fileID: 21300000, guid: 33e2256fcfa08bb4e8983846f63cf9da, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[8]
+      propertyPath: 'imagens.Array.data[8]'
       value: 
       objectReference: {fileID: 21300000, guid: 3d5032af01e02e04d95ee3953e2aa080, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[9]
+      propertyPath: 'imagens.Array.data[9]'
       value: 
       objectReference: {fileID: 21300000, guid: 54600a23447cdf1458515bb7302fdf29, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[10]
+      propertyPath: 'imagens.Array.data[10]'
       value: 
       objectReference: {fileID: 21300000, guid: 59085a96dd7c1234c8258c13493ab2cb, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[11]
+      propertyPath: 'imagens.Array.data[11]'
       value: 
       objectReference: {fileID: 21300000, guid: de51356a56f83864abfd35ff6b9f756f, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[12]
+      propertyPath: 'imagens.Array.data[12]'
       value: 
       objectReference: {fileID: 21300000, guid: f5f3962cb42ee5a44a216e1e91f625c0, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
@@ -5919,55 +5935,55 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[0]
+      propertyPath: 'listaLegendas.Array.data[0]'
       value: Tecladista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[1]
+      propertyPath: 'listaLegendas.Array.data[1]'
       value: Guitarrista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[2]
+      propertyPath: 'listaLegendas.Array.data[2]'
       value: Pandeiro
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[3]
+      propertyPath: 'listaLegendas.Array.data[3]'
       value: Vocalista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[4]
+      propertyPath: 'listaLegendas.Array.data[4]'
       value: Livro
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[5]
+      propertyPath: 'listaLegendas.Array.data[5]'
       value: Mochila Escolar
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[6]
+      propertyPath: 'listaLegendas.Array.data[6]'
       value: "\xD3culos de Sol"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[7]
+      propertyPath: 'listaLegendas.Array.data[7]'
       value: Pente de Cabelo
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[8]
+      propertyPath: 'listaLegendas.Array.data[8]'
       value: "Ra\xE7\xE3o de Gato"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[9]
+      propertyPath: 'listaLegendas.Array.data[9]'
       value: "Rem\xE9dio"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[10]
+      propertyPath: 'listaLegendas.Array.data[10]'
       value: "T\xE1xi"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[11]
+      propertyPath: 'listaLegendas.Array.data[11]'
       value: "Televis\xE3o"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[12]
+      propertyPath: 'listaLegendas.Array.data[12]'
       value: "T\xEAnis"
       objectReference: {fileID: 0}
     - target: {fileID: 5093648451213644440, guid: ed63388436502554a812ee6f39eccf76, type: 3}
@@ -6094,6 +6110,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -6264,6 +6281,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 4b6c93f40d768ff4999f8667bf369647, type: 3}
+  m_Resource: {fileID: 8300000, guid: 4b6c93f40d768ff4999f8667bf369647, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -6476,6 +6494,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: bb47ee3e97e57db4ea5721f33fa39937, type: 3}
+  m_Resource: {fileID: 8300000, guid: bb47ee3e97e57db4ea5721f33fa39937, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -6631,6 +6650,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 3d59e4eff89ecc94abd01769fc8c1159, type: 3}
+  m_Resource: {fileID: 8300000, guid: 3d59e4eff89ecc94abd01769fc8c1159, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -6953,7 +6973,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -7146,6 +7166,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: c997463608da69b4cbd8b479ed016b92, type: 3}
+  m_Resource: {fileID: 8300000, guid: c997463608da69b4cbd8b479ed016b92, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -7301,6 +7322,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 3630d4b8a3c9bee42b987649018c2fb5, type: 3}
+  m_Resource: {fileID: 8300000, guid: 3630d4b8a3c9bee42b987649018c2fb5, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -7505,55 +7527,55 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[0]
+      propertyPath: 'imagens.Array.data[0]'
       value: 
       objectReference: {fileID: 21300000, guid: 77ab591ec6414724db09e0374b5f52b3, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[1]
+      propertyPath: 'imagens.Array.data[1]'
       value: 
       objectReference: {fileID: 21300000, guid: 49d55845539a92c4aaf9173b1b34bf5c, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[2]
+      propertyPath: 'imagens.Array.data[2]'
       value: 
       objectReference: {fileID: 21300000, guid: 0352c1d5e42b855459c9c66408be6596, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[3]
+      propertyPath: 'imagens.Array.data[3]'
       value: 
       objectReference: {fileID: 21300000, guid: 76c7134a3c4c1d3439846e1599beb589, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[4]
+      propertyPath: 'imagens.Array.data[4]'
       value: 
       objectReference: {fileID: 21300000, guid: 63278b2cc34ec3d4782133c4fffd537b, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[5]
+      propertyPath: 'imagens.Array.data[5]'
       value: 
       objectReference: {fileID: 21300000, guid: c8d4df32b465209408f838fa8773c09c, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[6]
+      propertyPath: 'imagens.Array.data[6]'
       value: 
       objectReference: {fileID: 21300000, guid: 80e92de5beba04646ba6fcd994fa9c78, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[7]
+      propertyPath: 'imagens.Array.data[7]'
       value: 
       objectReference: {fileID: 21300000, guid: 33e2256fcfa08bb4e8983846f63cf9da, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[8]
+      propertyPath: 'imagens.Array.data[8]'
       value: 
       objectReference: {fileID: 21300000, guid: 3d5032af01e02e04d95ee3953e2aa080, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[9]
+      propertyPath: 'imagens.Array.data[9]'
       value: 
       objectReference: {fileID: 21300000, guid: 54600a23447cdf1458515bb7302fdf29, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[10]
+      propertyPath: 'imagens.Array.data[10]'
       value: 
       objectReference: {fileID: 21300000, guid: 59085a96dd7c1234c8258c13493ab2cb, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[11]
+      propertyPath: 'imagens.Array.data[11]'
       value: 
       objectReference: {fileID: 21300000, guid: de51356a56f83864abfd35ff6b9f756f, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[12]
+      propertyPath: 'imagens.Array.data[12]'
       value: 
       objectReference: {fileID: 21300000, guid: f5f3962cb42ee5a44a216e1e91f625c0, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
@@ -7561,55 +7583,55 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[0]
+      propertyPath: 'listaLegendas.Array.data[0]'
       value: Pandeiro
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[1]
+      propertyPath: 'listaLegendas.Array.data[1]'
       value: Guitarrista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[2]
+      propertyPath: 'listaLegendas.Array.data[2]'
       value: Vocalista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[3]
+      propertyPath: 'listaLegendas.Array.data[3]'
       value: Tecladista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[4]
+      propertyPath: 'listaLegendas.Array.data[4]'
       value: Livro
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[5]
+      propertyPath: 'listaLegendas.Array.data[5]'
       value: Mochila Escolar
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[6]
+      propertyPath: 'listaLegendas.Array.data[6]'
       value: "\xD3culos de Sol"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[7]
+      propertyPath: 'listaLegendas.Array.data[7]'
       value: Pente de Cabelo
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[8]
+      propertyPath: 'listaLegendas.Array.data[8]'
       value: "Ra\xE7\xE3o de Gato"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[9]
+      propertyPath: 'listaLegendas.Array.data[9]'
       value: "Rem\xE9dio"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[10]
+      propertyPath: 'listaLegendas.Array.data[10]'
       value: "T\xE1xi"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[11]
+      propertyPath: 'listaLegendas.Array.data[11]'
       value: "Televis\xE3o"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[12]
+      propertyPath: 'listaLegendas.Array.data[12]'
       value: "T\xEAnis"
       objectReference: {fileID: 0}
     - target: {fileID: 5093648451213644440, guid: ed63388436502554a812ee6f39eccf76, type: 3}
@@ -7796,15 +7818,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 00000000
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -7930,15 +7954,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 00000000
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -8313,55 +8339,55 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[0]
+      propertyPath: 'imagens.Array.data[0]'
       value: 
       objectReference: {fileID: 21300000, guid: 49d55845539a92c4aaf9173b1b34bf5c, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[1]
+      propertyPath: 'imagens.Array.data[1]'
       value: 
       objectReference: {fileID: 21300000, guid: 0352c1d5e42b855459c9c66408be6596, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[2]
+      propertyPath: 'imagens.Array.data[2]'
       value: 
       objectReference: {fileID: 21300000, guid: 76c7134a3c4c1d3439846e1599beb589, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[3]
+      propertyPath: 'imagens.Array.data[3]'
       value: 
       objectReference: {fileID: 21300000, guid: 77ab591ec6414724db09e0374b5f52b3, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[4]
+      propertyPath: 'imagens.Array.data[4]'
       value: 
       objectReference: {fileID: 21300000, guid: 63278b2cc34ec3d4782133c4fffd537b, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[5]
+      propertyPath: 'imagens.Array.data[5]'
       value: 
       objectReference: {fileID: 21300000, guid: c8d4df32b465209408f838fa8773c09c, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[6]
+      propertyPath: 'imagens.Array.data[6]'
       value: 
       objectReference: {fileID: 21300000, guid: 80e92de5beba04646ba6fcd994fa9c78, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[7]
+      propertyPath: 'imagens.Array.data[7]'
       value: 
       objectReference: {fileID: 21300000, guid: 33e2256fcfa08bb4e8983846f63cf9da, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[8]
+      propertyPath: 'imagens.Array.data[8]'
       value: 
       objectReference: {fileID: 21300000, guid: 3d5032af01e02e04d95ee3953e2aa080, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[9]
+      propertyPath: 'imagens.Array.data[9]'
       value: 
       objectReference: {fileID: 21300000, guid: 54600a23447cdf1458515bb7302fdf29, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[10]
+      propertyPath: 'imagens.Array.data[10]'
       value: 
       objectReference: {fileID: 21300000, guid: 59085a96dd7c1234c8258c13493ab2cb, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[11]
+      propertyPath: 'imagens.Array.data[11]'
       value: 
       objectReference: {fileID: 21300000, guid: de51356a56f83864abfd35ff6b9f756f, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[12]
+      propertyPath: 'imagens.Array.data[12]'
       value: 
       objectReference: {fileID: 21300000, guid: f5f3962cb42ee5a44a216e1e91f625c0, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
@@ -8369,55 +8395,55 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[0]
+      propertyPath: 'listaLegendas.Array.data[0]'
       value: Guitarrista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[1]
+      propertyPath: 'listaLegendas.Array.data[1]'
       value: Vocalista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[2]
+      propertyPath: 'listaLegendas.Array.data[2]'
       value: Tecladista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[3]
+      propertyPath: 'listaLegendas.Array.data[3]'
       value: Pandeiro
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[4]
+      propertyPath: 'listaLegendas.Array.data[4]'
       value: Livro
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[5]
+      propertyPath: 'listaLegendas.Array.data[5]'
       value: Mochila Escolar
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[6]
+      propertyPath: 'listaLegendas.Array.data[6]'
       value: "\xD3culos de Sol"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[7]
+      propertyPath: 'listaLegendas.Array.data[7]'
       value: Pente de Cabelo
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[8]
+      propertyPath: 'listaLegendas.Array.data[8]'
       value: "Ra\xE7\xE3o de Gato"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[9]
+      propertyPath: 'listaLegendas.Array.data[9]'
       value: "Rem\xE9dio"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[10]
+      propertyPath: 'listaLegendas.Array.data[10]'
       value: "T\xE1xi"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[11]
+      propertyPath: 'listaLegendas.Array.data[11]'
       value: "Televis\xE3o"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[12]
+      propertyPath: 'listaLegendas.Array.data[12]'
       value: "T\xEAnis"
       objectReference: {fileID: 0}
     - target: {fileID: 5093648451213644440, guid: ed63388436502554a812ee6f39eccf76, type: 3}
@@ -8986,55 +9012,55 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[0]
+      propertyPath: 'imagens.Array.data[0]'
       value: 
       objectReference: {fileID: 21300000, guid: 76c7134a3c4c1d3439846e1599beb589, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[1]
+      propertyPath: 'imagens.Array.data[1]'
       value: 
       objectReference: {fileID: 21300000, guid: 49d55845539a92c4aaf9173b1b34bf5c, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[2]
+      propertyPath: 'imagens.Array.data[2]'
       value: 
       objectReference: {fileID: 21300000, guid: 77ab591ec6414724db09e0374b5f52b3, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[3]
+      propertyPath: 'imagens.Array.data[3]'
       value: 
       objectReference: {fileID: 21300000, guid: 0352c1d5e42b855459c9c66408be6596, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[4]
+      propertyPath: 'imagens.Array.data[4]'
       value: 
       objectReference: {fileID: 21300000, guid: 63278b2cc34ec3d4782133c4fffd537b, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[5]
+      propertyPath: 'imagens.Array.data[5]'
       value: 
       objectReference: {fileID: 21300000, guid: c8d4df32b465209408f838fa8773c09c, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[6]
+      propertyPath: 'imagens.Array.data[6]'
       value: 
       objectReference: {fileID: 21300000, guid: 80e92de5beba04646ba6fcd994fa9c78, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[7]
+      propertyPath: 'imagens.Array.data[7]'
       value: 
       objectReference: {fileID: 21300000, guid: 33e2256fcfa08bb4e8983846f63cf9da, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[8]
+      propertyPath: 'imagens.Array.data[8]'
       value: 
       objectReference: {fileID: 21300000, guid: 3d5032af01e02e04d95ee3953e2aa080, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[9]
+      propertyPath: 'imagens.Array.data[9]'
       value: 
       objectReference: {fileID: 21300000, guid: 54600a23447cdf1458515bb7302fdf29, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[10]
+      propertyPath: 'imagens.Array.data[10]'
       value: 
       objectReference: {fileID: 21300000, guid: 59085a96dd7c1234c8258c13493ab2cb, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[11]
+      propertyPath: 'imagens.Array.data[11]'
       value: 
       objectReference: {fileID: 21300000, guid: de51356a56f83864abfd35ff6b9f756f, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[12]
+      propertyPath: 'imagens.Array.data[12]'
       value: 
       objectReference: {fileID: 21300000, guid: f5f3962cb42ee5a44a216e1e91f625c0, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
@@ -9042,55 +9068,55 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[0]
+      propertyPath: 'listaLegendas.Array.data[0]'
       value: Tecladista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[1]
+      propertyPath: 'listaLegendas.Array.data[1]'
       value: Guitarrista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[2]
+      propertyPath: 'listaLegendas.Array.data[2]'
       value: Pandeiro
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[3]
+      propertyPath: 'listaLegendas.Array.data[3]'
       value: Vocalista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[4]
+      propertyPath: 'listaLegendas.Array.data[4]'
       value: Livro
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[5]
+      propertyPath: 'listaLegendas.Array.data[5]'
       value: Mochila Escolar
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[6]
+      propertyPath: 'listaLegendas.Array.data[6]'
       value: "\xD3culos de Sol"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[7]
+      propertyPath: 'listaLegendas.Array.data[7]'
       value: Pente de Cabelo
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[8]
+      propertyPath: 'listaLegendas.Array.data[8]'
       value: "Ra\xE7\xE3o de Gato"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[9]
+      propertyPath: 'listaLegendas.Array.data[9]'
       value: "Rem\xE9dio"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[10]
+      propertyPath: 'listaLegendas.Array.data[10]'
       value: "T\xE1xi"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[11]
+      propertyPath: 'listaLegendas.Array.data[11]'
       value: "Televis\xE3o"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[12]
+      propertyPath: 'listaLegendas.Array.data[12]'
       value: "T\xEAnis"
       objectReference: {fileID: 0}
     - target: {fileID: 5093648451213644440, guid: ed63388436502554a812ee6f39eccf76, type: 3}
@@ -9250,6 +9276,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: bb47ee3e97e57db4ea5721f33fa39937, type: 3}
+  m_Resource: {fileID: 8300000, guid: bb47ee3e97e57db4ea5721f33fa39937, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -9474,6 +9501,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: bb47ee3e97e57db4ea5721f33fa39937, type: 3}
+  m_Resource: {fileID: 8300000, guid: bb47ee3e97e57db4ea5721f33fa39937, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -9611,6 +9639,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 4b6c93f40d768ff4999f8667bf369647, type: 3}
+  m_Resource: {fileID: 8300000, guid: 4b6c93f40d768ff4999f8667bf369647, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -9777,15 +9806,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 00000000
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -9897,7 +9928,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -10030,55 +10061,55 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[0]
+      propertyPath: 'imagens.Array.data[0]'
       value: 
       objectReference: {fileID: 21300000, guid: 77ab591ec6414724db09e0374b5f52b3, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[1]
+      propertyPath: 'imagens.Array.data[1]'
       value: 
       objectReference: {fileID: 21300000, guid: 49d55845539a92c4aaf9173b1b34bf5c, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[2]
+      propertyPath: 'imagens.Array.data[2]'
       value: 
       objectReference: {fileID: 21300000, guid: 0352c1d5e42b855459c9c66408be6596, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[3]
+      propertyPath: 'imagens.Array.data[3]'
       value: 
       objectReference: {fileID: 21300000, guid: 76c7134a3c4c1d3439846e1599beb589, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[4]
+      propertyPath: 'imagens.Array.data[4]'
       value: 
       objectReference: {fileID: 21300000, guid: 63278b2cc34ec3d4782133c4fffd537b, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[5]
+      propertyPath: 'imagens.Array.data[5]'
       value: 
       objectReference: {fileID: 21300000, guid: c8d4df32b465209408f838fa8773c09c, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[6]
+      propertyPath: 'imagens.Array.data[6]'
       value: 
       objectReference: {fileID: 21300000, guid: 80e92de5beba04646ba6fcd994fa9c78, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[7]
+      propertyPath: 'imagens.Array.data[7]'
       value: 
       objectReference: {fileID: 21300000, guid: 33e2256fcfa08bb4e8983846f63cf9da, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[8]
+      propertyPath: 'imagens.Array.data[8]'
       value: 
       objectReference: {fileID: 21300000, guid: 3d5032af01e02e04d95ee3953e2aa080, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[9]
+      propertyPath: 'imagens.Array.data[9]'
       value: 
       objectReference: {fileID: 21300000, guid: 54600a23447cdf1458515bb7302fdf29, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[10]
+      propertyPath: 'imagens.Array.data[10]'
       value: 
       objectReference: {fileID: 21300000, guid: 59085a96dd7c1234c8258c13493ab2cb, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[11]
+      propertyPath: 'imagens.Array.data[11]'
       value: 
       objectReference: {fileID: 21300000, guid: de51356a56f83864abfd35ff6b9f756f, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[12]
+      propertyPath: 'imagens.Array.data[12]'
       value: 
       objectReference: {fileID: 21300000, guid: f5f3962cb42ee5a44a216e1e91f625c0, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
@@ -10086,55 +10117,55 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[0]
+      propertyPath: 'listaLegendas.Array.data[0]'
       value: Pandeiro
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[1]
+      propertyPath: 'listaLegendas.Array.data[1]'
       value: Guitarrista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[2]
+      propertyPath: 'listaLegendas.Array.data[2]'
       value: Vocalista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[3]
+      propertyPath: 'listaLegendas.Array.data[3]'
       value: Tecladista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[4]
+      propertyPath: 'listaLegendas.Array.data[4]'
       value: Livro
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[5]
+      propertyPath: 'listaLegendas.Array.data[5]'
       value: Mochila Escolar
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[6]
+      propertyPath: 'listaLegendas.Array.data[6]'
       value: "\xD3culos de Sol"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[7]
+      propertyPath: 'listaLegendas.Array.data[7]'
       value: Pente de Cabelo
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[8]
+      propertyPath: 'listaLegendas.Array.data[8]'
       value: "Ra\xE7\xE3o de Gato"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[9]
+      propertyPath: 'listaLegendas.Array.data[9]'
       value: "Rem\xE9dio"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[10]
+      propertyPath: 'listaLegendas.Array.data[10]'
       value: "T\xE1xi"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[11]
+      propertyPath: 'listaLegendas.Array.data[11]'
       value: "Televis\xE3o"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[12]
+      propertyPath: 'listaLegendas.Array.data[12]'
       value: "T\xEAnis"
       objectReference: {fileID: 0}
     - target: {fileID: 5093648451213644440, guid: ed63388436502554a812ee6f39eccf76, type: 3}
@@ -10268,7 +10299,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!95 &1515469749
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -10282,6 +10313,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -10685,55 +10717,55 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[0]
+      propertyPath: 'imagens.Array.data[0]'
       value: 
       objectReference: {fileID: 21300000, guid: 49d55845539a92c4aaf9173b1b34bf5c, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[1]
+      propertyPath: 'imagens.Array.data[1]'
       value: 
       objectReference: {fileID: 21300000, guid: 0352c1d5e42b855459c9c66408be6596, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[2]
+      propertyPath: 'imagens.Array.data[2]'
       value: 
       objectReference: {fileID: 21300000, guid: 76c7134a3c4c1d3439846e1599beb589, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[3]
+      propertyPath: 'imagens.Array.data[3]'
       value: 
       objectReference: {fileID: 21300000, guid: 77ab591ec6414724db09e0374b5f52b3, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[4]
+      propertyPath: 'imagens.Array.data[4]'
       value: 
       objectReference: {fileID: 21300000, guid: 63278b2cc34ec3d4782133c4fffd537b, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[5]
+      propertyPath: 'imagens.Array.data[5]'
       value: 
       objectReference: {fileID: 21300000, guid: c8d4df32b465209408f838fa8773c09c, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[6]
+      propertyPath: 'imagens.Array.data[6]'
       value: 
       objectReference: {fileID: 21300000, guid: 80e92de5beba04646ba6fcd994fa9c78, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[7]
+      propertyPath: 'imagens.Array.data[7]'
       value: 
       objectReference: {fileID: 21300000, guid: 33e2256fcfa08bb4e8983846f63cf9da, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[8]
+      propertyPath: 'imagens.Array.data[8]'
       value: 
       objectReference: {fileID: 21300000, guid: 3d5032af01e02e04d95ee3953e2aa080, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[9]
+      propertyPath: 'imagens.Array.data[9]'
       value: 
       objectReference: {fileID: 21300000, guid: 54600a23447cdf1458515bb7302fdf29, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[10]
+      propertyPath: 'imagens.Array.data[10]'
       value: 
       objectReference: {fileID: 21300000, guid: 59085a96dd7c1234c8258c13493ab2cb, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[11]
+      propertyPath: 'imagens.Array.data[11]'
       value: 
       objectReference: {fileID: 21300000, guid: de51356a56f83864abfd35ff6b9f756f, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[12]
+      propertyPath: 'imagens.Array.data[12]'
       value: 
       objectReference: {fileID: 21300000, guid: f5f3962cb42ee5a44a216e1e91f625c0, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
@@ -10741,55 +10773,55 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[0]
+      propertyPath: 'listaLegendas.Array.data[0]'
       value: Guitarrista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[1]
+      propertyPath: 'listaLegendas.Array.data[1]'
       value: Vocalista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[2]
+      propertyPath: 'listaLegendas.Array.data[2]'
       value: Tecladista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[3]
+      propertyPath: 'listaLegendas.Array.data[3]'
       value: Pandeiro
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[4]
+      propertyPath: 'listaLegendas.Array.data[4]'
       value: Livro
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[5]
+      propertyPath: 'listaLegendas.Array.data[5]'
       value: Mochila Escolar
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[6]
+      propertyPath: 'listaLegendas.Array.data[6]'
       value: "\xD3culos de Sol"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[7]
+      propertyPath: 'listaLegendas.Array.data[7]'
       value: Pente de Cabelo
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[8]
+      propertyPath: 'listaLegendas.Array.data[8]'
       value: "Ra\xE7\xE3o de Gato"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[9]
+      propertyPath: 'listaLegendas.Array.data[9]'
       value: "Rem\xE9dio"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[10]
+      propertyPath: 'listaLegendas.Array.data[10]'
       value: "T\xE1xi"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[11]
+      propertyPath: 'listaLegendas.Array.data[11]'
       value: "Televis\xE3o"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[12]
+      propertyPath: 'listaLegendas.Array.data[12]'
       value: "T\xEAnis"
       objectReference: {fileID: 0}
     - target: {fileID: 5093648451213644440, guid: ed63388436502554a812ee6f39eccf76, type: 3}
@@ -10977,7 +11009,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 --- !u!95 &1616097945
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -10991,6 +11023,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -11033,55 +11066,55 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[0]
+      propertyPath: 'imagens.Array.data[0]'
       value: 
       objectReference: {fileID: 21300000, guid: 77ab591ec6414724db09e0374b5f52b3, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[1]
+      propertyPath: 'imagens.Array.data[1]'
       value: 
       objectReference: {fileID: 21300000, guid: 49d55845539a92c4aaf9173b1b34bf5c, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[2]
+      propertyPath: 'imagens.Array.data[2]'
       value: 
       objectReference: {fileID: 21300000, guid: 0352c1d5e42b855459c9c66408be6596, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[3]
+      propertyPath: 'imagens.Array.data[3]'
       value: 
       objectReference: {fileID: 21300000, guid: 76c7134a3c4c1d3439846e1599beb589, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[4]
+      propertyPath: 'imagens.Array.data[4]'
       value: 
       objectReference: {fileID: 21300000, guid: 63278b2cc34ec3d4782133c4fffd537b, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[5]
+      propertyPath: 'imagens.Array.data[5]'
       value: 
       objectReference: {fileID: 21300000, guid: c8d4df32b465209408f838fa8773c09c, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[6]
+      propertyPath: 'imagens.Array.data[6]'
       value: 
       objectReference: {fileID: 21300000, guid: 80e92de5beba04646ba6fcd994fa9c78, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[7]
+      propertyPath: 'imagens.Array.data[7]'
       value: 
       objectReference: {fileID: 21300000, guid: 33e2256fcfa08bb4e8983846f63cf9da, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[8]
+      propertyPath: 'imagens.Array.data[8]'
       value: 
       objectReference: {fileID: 21300000, guid: 3d5032af01e02e04d95ee3953e2aa080, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[9]
+      propertyPath: 'imagens.Array.data[9]'
       value: 
       objectReference: {fileID: 21300000, guid: 54600a23447cdf1458515bb7302fdf29, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[10]
+      propertyPath: 'imagens.Array.data[10]'
       value: 
       objectReference: {fileID: 21300000, guid: 59085a96dd7c1234c8258c13493ab2cb, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[11]
+      propertyPath: 'imagens.Array.data[11]'
       value: 
       objectReference: {fileID: 21300000, guid: de51356a56f83864abfd35ff6b9f756f, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[12]
+      propertyPath: 'imagens.Array.data[12]'
       value: 
       objectReference: {fileID: 21300000, guid: f5f3962cb42ee5a44a216e1e91f625c0, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
@@ -11089,55 +11122,55 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[0]
+      propertyPath: 'listaLegendas.Array.data[0]'
       value: Pandeiro
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[1]
+      propertyPath: 'listaLegendas.Array.data[1]'
       value: Guitarrista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[2]
+      propertyPath: 'listaLegendas.Array.data[2]'
       value: Vocalista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[3]
+      propertyPath: 'listaLegendas.Array.data[3]'
       value: Tecladista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[4]
+      propertyPath: 'listaLegendas.Array.data[4]'
       value: Livro
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[5]
+      propertyPath: 'listaLegendas.Array.data[5]'
       value: Mochila Escolar
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[6]
+      propertyPath: 'listaLegendas.Array.data[6]'
       value: "\xD3culos de Sol"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[7]
+      propertyPath: 'listaLegendas.Array.data[7]'
       value: Pente de Cabelo
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[8]
+      propertyPath: 'listaLegendas.Array.data[8]'
       value: "Ra\xE7\xE3o de Gato"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[9]
+      propertyPath: 'listaLegendas.Array.data[9]'
       value: "Rem\xE9dio"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[10]
+      propertyPath: 'listaLegendas.Array.data[10]'
       value: "T\xE1xi"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[11]
+      propertyPath: 'listaLegendas.Array.data[11]'
       value: "Televis\xE3o"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[12]
+      propertyPath: 'listaLegendas.Array.data[12]'
       value: "T\xEAnis"
       objectReference: {fileID: 0}
     - target: {fileID: 5093648451213644440, guid: ed63388436502554a812ee6f39eccf76, type: 3}
@@ -11267,7 +11300,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!95 &1675115550
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -11281,6 +11314,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -11406,55 +11440,55 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[0]
+      propertyPath: 'imagens.Array.data[0]'
       value: 
       objectReference: {fileID: 21300000, guid: 76c7134a3c4c1d3439846e1599beb589, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[1]
+      propertyPath: 'imagens.Array.data[1]'
       value: 
       objectReference: {fileID: 21300000, guid: 49d55845539a92c4aaf9173b1b34bf5c, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[2]
+      propertyPath: 'imagens.Array.data[2]'
       value: 
       objectReference: {fileID: 21300000, guid: 77ab591ec6414724db09e0374b5f52b3, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[3]
+      propertyPath: 'imagens.Array.data[3]'
       value: 
       objectReference: {fileID: 21300000, guid: 0352c1d5e42b855459c9c66408be6596, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[4]
+      propertyPath: 'imagens.Array.data[4]'
       value: 
       objectReference: {fileID: 21300000, guid: 63278b2cc34ec3d4782133c4fffd537b, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[5]
+      propertyPath: 'imagens.Array.data[5]'
       value: 
       objectReference: {fileID: 21300000, guid: c8d4df32b465209408f838fa8773c09c, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[6]
+      propertyPath: 'imagens.Array.data[6]'
       value: 
       objectReference: {fileID: 21300000, guid: 80e92de5beba04646ba6fcd994fa9c78, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[7]
+      propertyPath: 'imagens.Array.data[7]'
       value: 
       objectReference: {fileID: 21300000, guid: 33e2256fcfa08bb4e8983846f63cf9da, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[8]
+      propertyPath: 'imagens.Array.data[8]'
       value: 
       objectReference: {fileID: 21300000, guid: 3d5032af01e02e04d95ee3953e2aa080, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[9]
+      propertyPath: 'imagens.Array.data[9]'
       value: 
       objectReference: {fileID: 21300000, guid: 54600a23447cdf1458515bb7302fdf29, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[10]
+      propertyPath: 'imagens.Array.data[10]'
       value: 
       objectReference: {fileID: 21300000, guid: 59085a96dd7c1234c8258c13493ab2cb, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[11]
+      propertyPath: 'imagens.Array.data[11]'
       value: 
       objectReference: {fileID: 21300000, guid: de51356a56f83864abfd35ff6b9f756f, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[12]
+      propertyPath: 'imagens.Array.data[12]'
       value: 
       objectReference: {fileID: 21300000, guid: f5f3962cb42ee5a44a216e1e91f625c0, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
@@ -11462,55 +11496,55 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[0]
+      propertyPath: 'listaLegendas.Array.data[0]'
       value: Tecladista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[1]
+      propertyPath: 'listaLegendas.Array.data[1]'
       value: Guitarrista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[2]
+      propertyPath: 'listaLegendas.Array.data[2]'
       value: Pandeiro
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[3]
+      propertyPath: 'listaLegendas.Array.data[3]'
       value: Vocalista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[4]
+      propertyPath: 'listaLegendas.Array.data[4]'
       value: Livro
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[5]
+      propertyPath: 'listaLegendas.Array.data[5]'
       value: Mochila Escolar
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[6]
+      propertyPath: 'listaLegendas.Array.data[6]'
       value: "\xD3culos de Sol"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[7]
+      propertyPath: 'listaLegendas.Array.data[7]'
       value: Pente de Cabelo
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[8]
+      propertyPath: 'listaLegendas.Array.data[8]'
       value: "Ra\xE7\xE3o de Gato"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[9]
+      propertyPath: 'listaLegendas.Array.data[9]'
       value: "Rem\xE9dio"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[10]
+      propertyPath: 'listaLegendas.Array.data[10]'
       value: "T\xE1xi"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[11]
+      propertyPath: 'listaLegendas.Array.data[11]'
       value: "Televis\xE3o"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[12]
+      propertyPath: 'listaLegendas.Array.data[12]'
       value: "T\xEAnis"
       objectReference: {fileID: 0}
     - target: {fileID: 5093648451213644440, guid: ed63388436502554a812ee6f39eccf76, type: 3}
@@ -11813,6 +11847,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 5a740538d287f204889b5c0a6f9810da, type: 3}
+  m_Resource: {fileID: 8300000, guid: 5a740538d287f204889b5c0a6f9810da, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -12266,7 +12301,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!95 &1815831855
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -12280,6 +12315,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -12453,15 +12489,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 00000000
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -12618,55 +12656,55 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[0]
+      propertyPath: 'imagens.Array.data[0]'
       value: 
       objectReference: {fileID: 21300000, guid: 0352c1d5e42b855459c9c66408be6596, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[1]
+      propertyPath: 'imagens.Array.data[1]'
       value: 
       objectReference: {fileID: 21300000, guid: 76c7134a3c4c1d3439846e1599beb589, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[2]
+      propertyPath: 'imagens.Array.data[2]'
       value: 
       objectReference: {fileID: 21300000, guid: 49d55845539a92c4aaf9173b1b34bf5c, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[3]
+      propertyPath: 'imagens.Array.data[3]'
       value: 
       objectReference: {fileID: 21300000, guid: 77ab591ec6414724db09e0374b5f52b3, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[4]
+      propertyPath: 'imagens.Array.data[4]'
       value: 
       objectReference: {fileID: 21300000, guid: 63278b2cc34ec3d4782133c4fffd537b, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[5]
+      propertyPath: 'imagens.Array.data[5]'
       value: 
       objectReference: {fileID: 21300000, guid: c8d4df32b465209408f838fa8773c09c, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[6]
+      propertyPath: 'imagens.Array.data[6]'
       value: 
       objectReference: {fileID: 21300000, guid: 80e92de5beba04646ba6fcd994fa9c78, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[7]
+      propertyPath: 'imagens.Array.data[7]'
       value: 
       objectReference: {fileID: 21300000, guid: 33e2256fcfa08bb4e8983846f63cf9da, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[8]
+      propertyPath: 'imagens.Array.data[8]'
       value: 
       objectReference: {fileID: 21300000, guid: 3d5032af01e02e04d95ee3953e2aa080, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[9]
+      propertyPath: 'imagens.Array.data[9]'
       value: 
       objectReference: {fileID: 21300000, guid: 54600a23447cdf1458515bb7302fdf29, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[10]
+      propertyPath: 'imagens.Array.data[10]'
       value: 
       objectReference: {fileID: 21300000, guid: 59085a96dd7c1234c8258c13493ab2cb, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[11]
+      propertyPath: 'imagens.Array.data[11]'
       value: 
       objectReference: {fileID: 21300000, guid: de51356a56f83864abfd35ff6b9f756f, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[12]
+      propertyPath: 'imagens.Array.data[12]'
       value: 
       objectReference: {fileID: 21300000, guid: f5f3962cb42ee5a44a216e1e91f625c0, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
@@ -12674,55 +12712,55 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[0]
+      propertyPath: 'listaLegendas.Array.data[0]'
       value: Vocalista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[1]
+      propertyPath: 'listaLegendas.Array.data[1]'
       value: Tecladista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[2]
+      propertyPath: 'listaLegendas.Array.data[2]'
       value: Guitarrista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[3]
+      propertyPath: 'listaLegendas.Array.data[3]'
       value: Pandeiro
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[4]
+      propertyPath: 'listaLegendas.Array.data[4]'
       value: Livro
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[5]
+      propertyPath: 'listaLegendas.Array.data[5]'
       value: Mochila Escolar
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[6]
+      propertyPath: 'listaLegendas.Array.data[6]'
       value: "\xD3culos de Sol"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[7]
+      propertyPath: 'listaLegendas.Array.data[7]'
       value: Pente de Cabelo
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[8]
+      propertyPath: 'listaLegendas.Array.data[8]'
       value: "Ra\xE7\xE3o de Gato"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[9]
+      propertyPath: 'listaLegendas.Array.data[9]'
       value: "Rem\xE9dio"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[10]
+      propertyPath: 'listaLegendas.Array.data[10]'
       value: "T\xE1xi"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[11]
+      propertyPath: 'listaLegendas.Array.data[11]'
       value: "Televis\xE3o"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[12]
+      propertyPath: 'listaLegendas.Array.data[12]'
       value: "T\xEAnis"
       objectReference: {fileID: 0}
     - target: {fileID: 5093648451213644440, guid: ed63388436502554a812ee6f39eccf76, type: 3}
@@ -12882,6 +12920,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -13012,7 +13051,7 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1883035703
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -13026,6 +13065,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -13106,55 +13146,55 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[0]
+      propertyPath: 'imagens.Array.data[0]'
       value: 
       objectReference: {fileID: 21300000, guid: 0352c1d5e42b855459c9c66408be6596, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[1]
+      propertyPath: 'imagens.Array.data[1]'
       value: 
       objectReference: {fileID: 21300000, guid: 76c7134a3c4c1d3439846e1599beb589, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[2]
+      propertyPath: 'imagens.Array.data[2]'
       value: 
       objectReference: {fileID: 21300000, guid: 49d55845539a92c4aaf9173b1b34bf5c, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[3]
+      propertyPath: 'imagens.Array.data[3]'
       value: 
       objectReference: {fileID: 21300000, guid: 77ab591ec6414724db09e0374b5f52b3, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[4]
+      propertyPath: 'imagens.Array.data[4]'
       value: 
       objectReference: {fileID: 21300000, guid: 63278b2cc34ec3d4782133c4fffd537b, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[5]
+      propertyPath: 'imagens.Array.data[5]'
       value: 
       objectReference: {fileID: 21300000, guid: c8d4df32b465209408f838fa8773c09c, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[6]
+      propertyPath: 'imagens.Array.data[6]'
       value: 
       objectReference: {fileID: 21300000, guid: 80e92de5beba04646ba6fcd994fa9c78, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[7]
+      propertyPath: 'imagens.Array.data[7]'
       value: 
       objectReference: {fileID: 21300000, guid: 33e2256fcfa08bb4e8983846f63cf9da, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[8]
+      propertyPath: 'imagens.Array.data[8]'
       value: 
       objectReference: {fileID: 21300000, guid: 3d5032af01e02e04d95ee3953e2aa080, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[9]
+      propertyPath: 'imagens.Array.data[9]'
       value: 
       objectReference: {fileID: 21300000, guid: 54600a23447cdf1458515bb7302fdf29, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[10]
+      propertyPath: 'imagens.Array.data[10]'
       value: 
       objectReference: {fileID: 21300000, guid: 59085a96dd7c1234c8258c13493ab2cb, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[11]
+      propertyPath: 'imagens.Array.data[11]'
       value: 
       objectReference: {fileID: 21300000, guid: de51356a56f83864abfd35ff6b9f756f, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[12]
+      propertyPath: 'imagens.Array.data[12]'
       value: 
       objectReference: {fileID: 21300000, guid: f5f3962cb42ee5a44a216e1e91f625c0, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
@@ -13162,55 +13202,55 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[0]
+      propertyPath: 'listaLegendas.Array.data[0]'
       value: Vocalista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[1]
+      propertyPath: 'listaLegendas.Array.data[1]'
       value: Tecladista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[2]
+      propertyPath: 'listaLegendas.Array.data[2]'
       value: Guitarrista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[3]
+      propertyPath: 'listaLegendas.Array.data[3]'
       value: Pandeiro
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[4]
+      propertyPath: 'listaLegendas.Array.data[4]'
       value: Livro
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[5]
+      propertyPath: 'listaLegendas.Array.data[5]'
       value: Mochila Escolar
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[6]
+      propertyPath: 'listaLegendas.Array.data[6]'
       value: "\xD3culos de Sol"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[7]
+      propertyPath: 'listaLegendas.Array.data[7]'
       value: Pente de Cabelo
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[8]
+      propertyPath: 'listaLegendas.Array.data[8]'
       value: "Ra\xE7\xE3o de Gato"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[9]
+      propertyPath: 'listaLegendas.Array.data[9]'
       value: "Rem\xE9dio"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[10]
+      propertyPath: 'listaLegendas.Array.data[10]'
       value: "T\xE1xi"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[11]
+      propertyPath: 'listaLegendas.Array.data[11]'
       value: "Televis\xE3o"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[12]
+      propertyPath: 'listaLegendas.Array.data[12]'
       value: "T\xEAnis"
       objectReference: {fileID: 0}
     - target: {fileID: 5093648451213644440, guid: ed63388436502554a812ee6f39eccf76, type: 3}
@@ -13363,6 +13403,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 5a740538d287f204889b5c0a6f9810da, type: 3}
+  m_Resource: {fileID: 8300000, guid: 5a740538d287f204889b5c0a6f9810da, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -13496,6 +13537,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d38a9fc4ac6e06144af0cca14032e25c, type: 3}
+  m_Resource: {fileID: 8300000, guid: d38a9fc4ac6e06144af0cca14032e25c, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -13792,6 +13834,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: c997463608da69b4cbd8b479ed016b92, type: 3}
+  m_Resource: {fileID: 8300000, guid: c997463608da69b4cbd8b479ed016b92, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -13898,6 +13941,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: bb47ee3e97e57db4ea5721f33fa39937, type: 3}
+  m_Resource: {fileID: 8300000, guid: bb47ee3e97e57db4ea5721f33fa39937, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -14121,15 +14165,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 00000000
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -14192,55 +14238,55 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[0]
+      propertyPath: 'imagens.Array.data[0]'
       value: 
       objectReference: {fileID: 21300000, guid: 49d55845539a92c4aaf9173b1b34bf5c, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[1]
+      propertyPath: 'imagens.Array.data[1]'
       value: 
       objectReference: {fileID: 21300000, guid: 0352c1d5e42b855459c9c66408be6596, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[2]
+      propertyPath: 'imagens.Array.data[2]'
       value: 
       objectReference: {fileID: 21300000, guid: 76c7134a3c4c1d3439846e1599beb589, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[3]
+      propertyPath: 'imagens.Array.data[3]'
       value: 
       objectReference: {fileID: 21300000, guid: 77ab591ec6414724db09e0374b5f52b3, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[4]
+      propertyPath: 'imagens.Array.data[4]'
       value: 
       objectReference: {fileID: 21300000, guid: 63278b2cc34ec3d4782133c4fffd537b, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[5]
+      propertyPath: 'imagens.Array.data[5]'
       value: 
       objectReference: {fileID: 21300000, guid: c8d4df32b465209408f838fa8773c09c, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[6]
+      propertyPath: 'imagens.Array.data[6]'
       value: 
       objectReference: {fileID: 21300000, guid: 80e92de5beba04646ba6fcd994fa9c78, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[7]
+      propertyPath: 'imagens.Array.data[7]'
       value: 
       objectReference: {fileID: 21300000, guid: 33e2256fcfa08bb4e8983846f63cf9da, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[8]
+      propertyPath: 'imagens.Array.data[8]'
       value: 
       objectReference: {fileID: 21300000, guid: 3d5032af01e02e04d95ee3953e2aa080, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[9]
+      propertyPath: 'imagens.Array.data[9]'
       value: 
       objectReference: {fileID: 21300000, guid: 54600a23447cdf1458515bb7302fdf29, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[10]
+      propertyPath: 'imagens.Array.data[10]'
       value: 
       objectReference: {fileID: 21300000, guid: 59085a96dd7c1234c8258c13493ab2cb, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[11]
+      propertyPath: 'imagens.Array.data[11]'
       value: 
       objectReference: {fileID: 21300000, guid: de51356a56f83864abfd35ff6b9f756f, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: imagens.Array.data[12]
+      propertyPath: 'imagens.Array.data[12]'
       value: 
       objectReference: {fileID: 21300000, guid: f5f3962cb42ee5a44a216e1e91f625c0, type: 3}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
@@ -14248,55 +14294,55 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[0]
+      propertyPath: 'listaLegendas.Array.data[0]'
       value: Guitarrista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[1]
+      propertyPath: 'listaLegendas.Array.data[1]'
       value: Vocalista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[2]
+      propertyPath: 'listaLegendas.Array.data[2]'
       value: Tecladista
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[3]
+      propertyPath: 'listaLegendas.Array.data[3]'
       value: Pandeiro
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[4]
+      propertyPath: 'listaLegendas.Array.data[4]'
       value: Livro
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[5]
+      propertyPath: 'listaLegendas.Array.data[5]'
       value: Mochila Escolar
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[6]
+      propertyPath: 'listaLegendas.Array.data[6]'
       value: "\xD3culos de Sol"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[7]
+      propertyPath: 'listaLegendas.Array.data[7]'
       value: Pente de Cabelo
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[8]
+      propertyPath: 'listaLegendas.Array.data[8]'
       value: "Ra\xE7\xE3o de Gato"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[9]
+      propertyPath: 'listaLegendas.Array.data[9]'
       value: "Rem\xE9dio"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[10]
+      propertyPath: 'listaLegendas.Array.data[10]'
       value: "T\xE1xi"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[11]
+      propertyPath: 'listaLegendas.Array.data[11]'
       value: "Televis\xE3o"
       objectReference: {fileID: 0}
     - target: {fileID: 4505932902209428946, guid: ed63388436502554a812ee6f39eccf76, type: 3}
-      propertyPath: listaLegendas.Array.data[12]
+      propertyPath: 'listaLegendas.Array.data[12]'
       value: "T\xEAnis"
       objectReference: {fileID: 0}
     - target: {fileID: 5093648451213644440, guid: ed63388436502554a812ee6f39eccf76, type: 3}
@@ -14444,7 +14490,7 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &2039089301
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -14458,6 +14504,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -14604,6 +14651,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d38a9fc4ac6e06144af0cca14032e25c, type: 3}
+  m_Resource: {fileID: 8300000, guid: d38a9fc4ac6e06144af0cca14032e25c, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -14792,6 +14840,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 63a3df17d6b6a214e831d341c22383b1, type: 3}
+  m_Resource: {fileID: 8300000, guid: 63a3df17d6b6a214e831d341c22383b1, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -15039,7 +15088,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -15250,6 +15299,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d38a9fc4ac6e06144af0cca14032e25c, type: 3}
+  m_Resource: {fileID: 8300000, guid: d38a9fc4ac6e06144af0cca14032e25c, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
