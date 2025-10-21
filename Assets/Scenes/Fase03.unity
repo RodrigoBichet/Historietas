@@ -9075,7 +9075,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Menu
+          m_StringArgument: SelectLevel
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 0}
@@ -10167,8 +10167,6 @@ MonoBehaviour:
   imagemAcerto2: {fileID: 523973136}
   imagemAcerto3: {fileID: 1616097941}
   imagemAcertoTitle: {fileID: 1539429683}
-  imagemAcertoConfete1: {fileID: 1243429264}
-  imagemAcertoConfete2: {fileID: 1818499462}
 --- !u!1001 &1495500830
 PrefabInstance:
   m_ObjectHideFlags: 0
