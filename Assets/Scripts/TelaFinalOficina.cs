@@ -14,8 +14,7 @@ public class TelaFinalOficina : MonoBehaviour
     public GameObject imagemAcerto3;
 
     public GameObject imagemAcertoTitle;
-    public GameObject imagemAcertoConfete1;
-    public GameObject imagemAcertoConfete2;
+    
 
     void Start()
     {
@@ -27,8 +26,7 @@ public class TelaFinalOficina : MonoBehaviour
             imagemAcerto2.SetActive(true);
             imagemAcerto3.SetActive(true);
             imagemAcertoTitle.SetActive(true);
-            imagemAcertoConfete1.SetActive(true);
-            imagemAcertoConfete2.SetActive(true);
+           
             GameManagerOficina.resultadoAvaliacao = "Acerto";
         }
         else if (errorCountOficina <= 4)

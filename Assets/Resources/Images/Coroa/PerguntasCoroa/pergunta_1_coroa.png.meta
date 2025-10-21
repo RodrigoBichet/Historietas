@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: 6fccc8eb3ec2ddb49a228d00bf29fb74
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2760803888380151390
+    second: pergunta_1_coroa_0
+  - first:
+      213: 4930107252345656048
+    second: pergunta_1_coroa_1
+  - first:
+      213: -8184602775064763066
+    second: pergunta_1_coroa_2
+  - first:
+      213: -6241305054414908287
+    second: pergunta_1_coroa_3
+  - first:
+      213: -6110112772182887541
+    second: pergunta_1_coroa_4
+  - first:
+      213: -5909011190437415854
+    second: pergunta_1_coroa_5
+  - first:
+      213: -3925956092988577681
+    second: pergunta_1_coroa_6
+  - first:
+      213: 9038516722438790407
+    second: pergunta_1_coroa_7
+  - first:
+      213: -5301219044092974719
+    second: pergunta_1_coroa_8
+  - first:
+      213: 9124756266297186340
+    second: pergunta_1_coroa_9
+  - first:
+      213: 1579352593665065564
+    second: pergunta_1_coroa_10
+  - first:
+      213: -7574123220129987453
+    second: pergunta_1_coroa_11
+  - first:
+      213: -8524049647019563124
+    second: pergunta_1_coroa_12
+  - first:
+      213: -2205076247872570410
+    second: pergunta_1_coroa_13
+  - first:
+      213: 2365705846691992423
+    second: pergunta_1_coroa_14
+  - first:
+      213: 1378276760272296159
+    second: pergunta_1_coroa_15
+  - first:
+      213: -3781121587488130575
+    second: pergunta_1_coroa_16
+  - first:
+      213: -4012216838536054836
+    second: pergunta_1_coroa_17
+  - first:
+      213: 3226987825856699794
+    second: pergunta_1_coroa_18
+  - first:
+      213: 1998600284109946426
+    second: pergunta_1_coroa_19
+  - first:
+      213: 9212030096302753605
+    second: pergunta_1_coroa_20
+  - first:
+      213: -5642282999755039700
+    second: pergunta_1_coroa_21
+  - first:
+      213: -2312488822036799543
+    second: pergunta_1_coroa_22
+  - first:
+      213: -2862993444190350267
+    second: pergunta_1_coroa_23
+  - first:
+      213: -7698894808674753561
+    second: pergunta_1_coroa_24
+  - first:
+      213: 4643534164977688431
+    second: pergunta_1_coroa_25
+  - first:
+      213: -5246034216129798885
+    second: pergunta_1_coroa_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pergunta_1_coroa_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 129
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a9759aad77afa9d0800000000000000
+      internalID: -2760803888380151390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_coroa_1
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 117
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2d3a8dc624b6440800000000000000
+      internalID: 4930107252345656048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_coroa_2
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 129
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 645a694d3237a6e80800000000000000
+      internalID: -8184602775064763066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_coroa_3
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 129
+        width: 71
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 184dfb0fe1e6269a0800000000000000
+      internalID: -6241305054414908287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_coroa_4
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 130
+        width: 48
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8336747ec4843ba0800000000000000
+      internalID: -6110112772182887541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_coroa_5
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 167
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2547b2c21a9fefda0800000000000000
+      internalID: -5909011190437415854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_coroa_6
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 129
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f68a2a9ebb33489c0800000000000000
+      internalID: -3925956092988577681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_coroa_7
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 117
+        width: 74
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d546922134f6d70800000000000000
+      internalID: 9038516722438790407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_coroa_8
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 130
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1896d40dd594e66b0800000000000000
+      internalID: -5301219044092974719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_coroa_9
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 167
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 428d9aaaa75a1ae70800000000000000
+      internalID: 9124756266297186340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_coroa_10
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 117
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c528f70f0dcfae510800000000000000
+      internalID: 1579352593665065564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_coroa_11
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 129
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3844d1b8f0f43e690800000000000000
+      internalID: -7574123220129987453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_coroa_12
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 129
+        width: 76
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c87ea95220e74b980800000000000000
+      internalID: -8524049647019563124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_coroa_13
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 130
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6db77e6e5def561e0800000000000000
+      internalID: -2205076247872570410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_coroa_14
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 129
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 763142bfeeca4d020800000000000000
+      internalID: 2365705846691992423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_coroa_15
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 167
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8d43a396f902310800000000000000
+      internalID: 1378276760272296159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_coroa_16
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 130
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f9753d03f1c68bc0800000000000000
+      internalID: -3781121587488130575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_coroa_17
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 129
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc7b7310b0eb158c0800000000000000
+      internalID: -4012216838536054836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_coroa_18
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 129
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29dd2be845098cc20800000000000000
+      internalID: 3226987825856699794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_coroa_19
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 130
+        width: 14
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3e3e5e8e547cbb10800000000000000
+      internalID: 1998600284109946426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_coroa_20
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 130
+        width: 14
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 547455ea094b7df70800000000000000
+      internalID: 9212030096302753605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_coroa_21
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 130
+        width: 14
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2c106d718592b1b0800000000000000
+      internalID: -5642282999755039700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_coroa_22
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 54
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf5f6f1ba368efd0800000000000000
+      internalID: -2312488822036799543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_coroa_23
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 54
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54413cc91aa9448d0800000000000000
+      internalID: -2862993444190350267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_coroa_24
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 55
+        width: 87
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e3a7d546f7082590800000000000000
+      internalID: -7698894808674753561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_coroa_25
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 92
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f92e578b5217040800000000000000
+      internalID: 4643534164977688431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_coroa_26
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 54
+        width: 60
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1dd904dca75237b0800000000000000
+      internalID: -5246034216129798885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pergunta_1_coroa_0: -2760803888380151390
+      pergunta_1_coroa_1: 4930107252345656048
+      pergunta_1_coroa_10: 1579352593665065564
+      pergunta_1_coroa_11: -7574123220129987453
+      pergunta_1_coroa_12: -8524049647019563124
+      pergunta_1_coroa_13: -2205076247872570410
+      pergunta_1_coroa_14: 2365705846691992423
+      pergunta_1_coroa_15: 1378276760272296159
+      pergunta_1_coroa_16: -3781121587488130575
+      pergunta_1_coroa_17: -4012216838536054836
+      pergunta_1_coroa_18: 3226987825856699794
+      pergunta_1_coroa_19: 1998600284109946426
+      pergunta_1_coroa_2: -8184602775064763066
+      pergunta_1_coroa_20: 9212030096302753605
+      pergunta_1_coroa_21: -5642282999755039700
+      pergunta_1_coroa_22: -2312488822036799543
+      pergunta_1_coroa_23: -2862993444190350267
+      pergunta_1_coroa_24: -7698894808674753561
+      pergunta_1_coroa_25: 4643534164977688431
+      pergunta_1_coroa_26: -5246034216129798885
+      pergunta_1_coroa_3: -6241305054414908287
+      pergunta_1_coroa_4: -6110112772182887541
+      pergunta_1_coroa_5: -5909011190437415854
+      pergunta_1_coroa_6: -3925956092988577681
+      pergunta_1_coroa_7: 9038516722438790407
+      pergunta_1_coroa_8: -5301219044092974719
+      pergunta_1_coroa_9: 9124756266297186340
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

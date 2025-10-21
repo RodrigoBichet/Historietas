@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 public class GameManagerFazenda : MonoBehaviour
 {
     public static GameManagerFazenda instance;
@@ -18,4 +19,26 @@ public class GameManagerFazenda : MonoBehaviour
             Destroy(gameObject);
         }
     }
+    void OnEnable()
+    {
+        // Inscreve-se para ouvir o evento de carregamento de cena
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    void OnDisable()
+    {
+        // Remove-se da inscrição do evento de carregamento de cena
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        // Verifica se a cena carregada é "Fase05"
+        if (scene.name == "Fase05")
+        {
+            // Zera o contador de erros
+            errorCountFazenda = 0;
+        }
+    }
 }
+

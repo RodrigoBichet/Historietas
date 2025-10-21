@@ -110,9 +110,14 @@ public class ItemColado : MonoBehaviour, IDropHandler
                 else if (currentSceneName == "Fase05")
                 {
                     GameManagerFazenda.instance.errorCountFazenda++;
+
+                }
+                else if (currentSceneName == "Fase06")
+                {
+                    GameManagerChapeuzinho.instance.errorCountChapeuzinho++;
                 }
 
-                soundWrong.Play();
+                    soundWrong.Play();
             }
         }
     }

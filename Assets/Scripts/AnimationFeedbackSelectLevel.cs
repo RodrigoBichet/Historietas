@@ -13,12 +13,7 @@ public class AnimationFeedbackSelectLevel : MonoBehaviour
     public GameObject animatedObject7;
     public GameObject animatedObject8;
     public GameObject animatedObject9;
-    public GameObject animatedObject10;
-    public GameObject animatedObject11;
-    public GameObject animatedObject12;
-    public GameObject animatedObject13;
-    public GameObject animatedObject14;
-    public GameObject animatedObject15;
+
     void Start()
     {
         string previousScene = PlayerPrefs.GetString("PreviousScene", "");
@@ -35,12 +30,7 @@ public class AnimationFeedbackSelectLevel : MonoBehaviour
             animatedObject7.GetComponent<Animator>().enabled = false; // Desativa a animação
             animatedObject8.GetComponent<Animator>().enabled = false; // Desativa a animação
             animatedObject9.GetComponent<Animator>().enabled = false; // Desativa a animação
-            animatedObject10.GetComponent<Animator>().enabled = false; // Desativa a animação
-            animatedObject11.GetComponent<Animator>().enabled = false; // Desativa a animação
-            animatedObject12.GetComponent<Animator>().enabled = false; // Desativa a animação
-            animatedObject13.GetComponent<Animator>().enabled = false; // Desativa a animação
-            animatedObject14.GetComponent<Animator>().enabled = false; // Desativa a animação
-            animatedObject15.GetComponent<Animator>().enabled = false; // Desativa a animação
+
         }
 
         // Redefine a origem para evitar que afete futuras transições

@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 4fcf31f0d0d99394db8d84525ada3eb8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3097384304107378299
+    second: pergunta_1_fazendinha_0
+  - first:
+      213: -8732532224058317662
+    second: pergunta_1_fazendinha_1
+  - first:
+      213: -7368977400963031723
+    second: pergunta_1_fazendinha_2
+  - first:
+      213: 6095588029045374200
+    second: pergunta_1_fazendinha_3
+  - first:
+      213: 5073962532168991041
+    second: pergunta_1_fazendinha_4
+  - first:
+      213: -8213415550784959574
+    second: pergunta_1_fazendinha_5
+  - first:
+      213: -3559183579171912916
+    second: pergunta_1_fazendinha_6
+  - first:
+      213: 5228862219755304291
+    second: pergunta_1_fazendinha_7
+  - first:
+      213: -8982008159575252772
+    second: pergunta_1_fazendinha_8
+  - first:
+      213: 8676191711503804406
+    second: pergunta_1_fazendinha_9
+  - first:
+      213: -6375131556827243053
+    second: pergunta_1_fazendinha_10
+  - first:
+      213: 6981463118898994082
+    second: pergunta_1_fazendinha_11
+  - first:
+      213: 7372648630705455942
+    second: pergunta_1_fazendinha_12
+  - first:
+      213: -7506433504116799360
+    second: pergunta_1_fazendinha_13
+  - first:
+      213: -1263895094336178194
+    second: pergunta_1_fazendinha_14
+  - first:
+      213: 1233193882386637992
+    second: pergunta_1_fazendinha_15
+  - first:
+      213: 7642455722878668980
+    second: pergunta_1_fazendinha_16
+  - first:
+      213: -5333380757453393818
+    second: pergunta_1_fazendinha_17
+  - first:
+      213: 7304222992012637521
+    second: pergunta_1_fazendinha_18
+  - first:
+      213: 8362677406533087908
+    second: pergunta_1_fazendinha_19
+  - first:
+      213: -5180831206202653316
+    second: pergunta_1_fazendinha_20
+  - first:
+      213: 3729688245757649465
+    second: pergunta_1_fazendinha_21
+  - first:
+      213: -5306097481014043936
+    second: pergunta_1_fazendinha_22
+  - first:
+      213: -5203623336585988192
+    second: pergunta_1_fazendinha_23
+  - first:
+      213: 276679481723806950
+    second: pergunta_1_fazendinha_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pergunta_1_fazendinha_0
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 119
+        width: 52
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5892fc4d261e305d0800000000000000
+      internalID: -3097384304107378299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_fazendinha_1
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 129
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a42a5b8530dfc680800000000000000
+      internalID: -8732532224058317662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_fazendinha_2
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 129
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55d97b9a8122cb990800000000000000
+      internalID: -7368977400963031723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_fazendinha_3
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 130
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc7f504401e79450800000000000000
+      internalID: 6095588029045374200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_fazendinha_4
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 167
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 141039d3a065a6640800000000000000
+      internalID: 5073962532168991041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_fazendinha_5
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 129
+        width: 95
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aab0bc6b216140e80800000000000000
+      internalID: -8213415550784959574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_fazendinha_6
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 130
+        width: 14
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c230e01646d3b9ec0800000000000000
+      internalID: -3559183579171912916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_fazendinha_7
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 129
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 365b9f33c76a09840800000000000000
+      internalID: 5228862219755304291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_fazendinha_8
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 167
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd06bd6ea2f795380800000000000000
+      internalID: -8982008159575252772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_fazendinha_9
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 129
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f76f57a466086870800000000000000
+      internalID: 8676191711503804406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_fazendinha_10
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 129
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ddddee30abf687a0800000000000000
+      internalID: -6375131556827243053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_fazendinha_11
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 129
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ab177e97b323e060800000000000000
+      internalID: 6981463118898994082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_fazendinha_12
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 129
+        width: 67
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64308fe1ed8e05660800000000000000
+      internalID: 7372648630705455942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_fazendinha_13
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 130
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0880701bf7ac3d790800000000000000
+      internalID: -7506433504116799360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_fazendinha_14
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 129
+        width: 76
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7bbbcab1eb57ee0800000000000000
+      internalID: -1263895094336178194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_fazendinha_15
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 130
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a427d26d4f2d1110800000000000000
+      internalID: 1233193882386637992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_fazendinha_16
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 129
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b095dd0df47f0a60800000000000000
+      internalID: 7642455722878668980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_fazendinha_17
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 130
+        width: 14
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 660361465760cf5b0800000000000000
+      internalID: -5333380757453393818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_fazendinha_18
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 117
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 155772f9c10dd5560800000000000000
+      internalID: 7304222992012637521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_fazendinha_19
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 129
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a2f69b3bc23e0470800000000000000
+      internalID: 8362677406533087908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_fazendinha_20
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 54
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c754809977df918b0800000000000000
+      internalID: -5180831206202653316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_fazendinha_21
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 54
+        width: 104
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 932a553e2b382c330800000000000000
+      internalID: 3729688245757649465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_fazendinha_22
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 92
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea10943474fc56b0800000000000000
+      internalID: -5306097481014043936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_fazendinha_23
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 70
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a7fbd5352409c7b0800000000000000
+      internalID: -5203623336585988192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pergunta_1_fazendinha_24
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 54
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e469c0d586f6d300800000000000000
+      internalID: 276679481723806950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pergunta_1_fazendinha_0: -3097384304107378299
+      pergunta_1_fazendinha_1: -8732532224058317662
+      pergunta_1_fazendinha_10: -6375131556827243053
+      pergunta_1_fazendinha_11: 6981463118898994082
+      pergunta_1_fazendinha_12: 7372648630705455942
+      pergunta_1_fazendinha_13: -7506433504116799360
+      pergunta_1_fazendinha_14: -1263895094336178194
+      pergunta_1_fazendinha_15: 1233193882386637992
+      pergunta_1_fazendinha_16: 7642455722878668980
+      pergunta_1_fazendinha_17: -5333380757453393818
+      pergunta_1_fazendinha_18: 7304222992012637521
+      pergunta_1_fazendinha_19: 8362677406533087908
+      pergunta_1_fazendinha_2: -7368977400963031723
+      pergunta_1_fazendinha_20: -5180831206202653316
+      pergunta_1_fazendinha_21: 3729688245757649465
+      pergunta_1_fazendinha_22: -5306097481014043936
+      pergunta_1_fazendinha_23: -5203623336585988192
+      pergunta_1_fazendinha_24: 276679481723806950
+      pergunta_1_fazendinha_3: 6095588029045374200
+      pergunta_1_fazendinha_4: 5073962532168991041
+      pergunta_1_fazendinha_5: -8213415550784959574
+      pergunta_1_fazendinha_6: -3559183579171912916
+      pergunta_1_fazendinha_7: 5228862219755304291
+      pergunta_1_fazendinha_8: -8982008159575252772
+      pergunta_1_fazendinha_9: 8676191711503804406
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

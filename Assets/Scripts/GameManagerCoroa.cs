@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 public class GameManagerCoroa : MonoBehaviour
 {
     public static GameManagerCoroa instance;
@@ -18,4 +19,27 @@ public class GameManagerCoroa : MonoBehaviour
             Destroy(gameObject);
         }
     }
+    void OnEnable()
+    {
+        // Inscreve-se para ouvir o evento de carregamento de cena
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    void OnDisable()
+    {
+        // Remove-se da inscrição do evento de carregamento de cena
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        // Verifica se a cena carregada é "Fase01"
+        if (scene.name == "Fase01")
+        {
+            // Zera o contador de erros
+            errorCountCoroa = 0;
+        }
+    }
 }
+
+
